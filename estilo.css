@@ -1,0 +1,1015 @@
+/* geral */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+:target 
+{
+    scroll-margin-top: .8em;
+}
+
+
+.container
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.codigo-marcado
+{
+    max-width: 1366px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #635A5A;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    border-left: 12px solid #3949AB;
+}
+
+.seta-up
+{
+    padding: 10px;
+    background: #3949AB;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    z-index: 80;
+}
+
+.seta-up img
+{
+    width: 30px;
+}
+
+/* geral */
+
+
+/* Sidebar */
+
+.logo
+{
+    width: 230px;
+}
+
+.sidebar
+{
+    width: 268px;
+    position: fixed;
+    display: inline-block;
+    background: #3949AB;
+    min-height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.5s;
+    overflow-x: hidden;
+}
+
+.sidebar.active
+{
+    width: 12px;
+}
+
+.navegacao
+{
+    width: 100%;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navegacao ul
+{
+   padding-top: 40px;
+
+}
+
+.navegacao ul li
+{
+    line-height: 70px;
+    text-align: left;
+    list-style: none;
+}
+
+.navegacao ul li a
+{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    padding: 5px 12px;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.navegacao ul li a:hover
+{
+    color: #635A5A;
+}
+
+/* Sidebar */
+
+
+
+/* Conteudo do site  */
+
+.conteudo-site
+{
+    position: relative;
+    display: inline-block;
+    width: calc(100% - 180px);
+    margin-left: 270px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.conteudo-site.active
+{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.menu
+{
+    padding: 10px;
+    cursor: pointer;
+    margin: 0;
+    display: inline-block;
+}
+
+.conteudo-site h1
+{
+    margin-top: 50px;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.conteudo-site .linha-divisoria
+{
+    height: 4px;
+    background: #000000;
+}
+
+
+/* Seção sobre */
+
+#sobre
+{
+    margin-top: 60px;
+}
+
+#sobre h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+#sobre .linha-divisoria
+{
+    width: 100px;
+}
+
+#sobre  p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/* PAGINAS */
+
+#sobre .paginas
+{
+    margin-top: 40px;
+}
+
+#sobre .paginas .linha-divisoria
+{
+    width: 100px;
+}
+
+#sobre .paginas h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#sobre .paginas ul
+{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#sobre .paginas ul li a
+{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* PAGINAS */
+
+
+
+/* ESTRUTURAS */
+
+#sobre .estrutura
+{
+    margin-top: 40px;
+}
+
+#sobre .estrutura .linha-divisoria
+{
+    width: 190px;
+}
+
+#sobre .estrutura h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#sobre .estrutura img
+{
+    display: block;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+/* ESTRUTURAS */
+
+
+
+/* TECNOLOGIA */
+
+#sobre .tecnologia
+{
+    margin-top: 40px;
+}
+
+#sobre .tecnologia .linha-divisoria
+{
+    width: 130px;
+}
+
+#sobre .tecnologia h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#sobre .tecnologia ul
+{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#sobre .tecnologia ul li a
+{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* TECNOLOGIA */
+
+
+/* Seção sobre */
+
+
+/* Seção requisitos */
+
+#requisitos
+{
+    margin-top: 100px;
+}
+
+#requisitos .linha-divisoria
+{
+    width: 150px;
+}
+
+#requisitos h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+#requisitos p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#requisitos p strong
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#requisitos ul
+{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#requisitos ul li a
+{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* Seção requisitos */
+
+
+/* Seção instalação */
+
+#instalacao
+{
+    margin-top: 100px;
+}
+
+#instalacao .linha-divisoria
+{
+    width: 150px;
+}
+
+#instalacao h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+#instalacao p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#instalacao p strong
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* Seção instalação */
+
+
+/* Seção biblioteca */
+
+#biblioteca
+{
+    margin-top: 100px;
+}
+
+#biblioteca .linha-divisoria
+{
+    width: 150px;
+}
+
+#biblioteca h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+#biblioteca p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#biblioteca ul
+{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#biblioteca ul li a
+{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* Seção biblioteca */
+
+
+/* Seção autor */
+
+#autor
+{
+    margin-top: 100px;
+}
+
+#autor .linha-divisoria
+{
+    width: 120px;
+}
+
+#autor h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+#autor p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#autor ul
+{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#autor ul li a
+{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* Seção autor */
+
+
+/* Seção observacao */
+
+#observacao
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#observacao .linha-divisoria
+{
+    width: 180px;
+}
+
+#observacao h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+#observacao p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/* Seção autor */
+
+
+
+/* Media querys */
+
+@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1152px) {}
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 992px) 
+{
+    #sobre  p
+    {
+        font-size: 16px;
+    }
+
+    #requisitos p
+    {
+        font-size: 16px;
+    }
+
+    #instalacao p
+    {
+        font-size: 16px;
+    }
+    
+    #biblioteca p
+    {
+        font-size: 16px;
+    }
+
+    #autor p
+    {
+        font-size: 16px;
+    }
+
+    #observacao p
+    {
+        font-size: 16px;
+    }
+
+
+
+    .sidebar 
+    {
+        width: 12px;
+    }
+
+    .sidebar.active
+    {
+        width: 268px;
+    }
+
+    .conteudo-site.active
+    {
+        width: calc(100% - 180px);
+        margin-left: 270px;
+    }
+
+    .conteudo-site
+    {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+}
+@media screen and (max-width: 868px) {}
+@media screen and (max-width: 768px) 
+{
+    .conteudo-site h1 
+    {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    #sobre h2 
+    {
+        font-size: 20px;
+    }
+
+    #requisitos h2 
+    {
+        font-size: 20px;
+    }
+
+    #instalacao h2 
+    {
+        font-size: 20px;
+    }
+
+    #biblioteca h2 
+    {
+        font-size: 20px;
+    }
+
+    #autor h2 
+    {
+        font-size: 20px;
+    }
+
+    #observacao h2 
+    {
+        font-size: 20px;
+    }
+
+    .navegacao ul li a 
+    {
+        font-size: 22px;
+    }
+
+    .codigo-marcado 
+    {
+        font-size: 17px;
+    }
+
+    #sobre .paginas ul li a 
+    {
+        font-size: 17px;
+    }
+
+    #sobre .tecnologia ul li a 
+    {
+        font-size: 17px;
+    }
+
+    #requisitos ul li a 
+    {
+        font-size: 17px;
+    }
+
+    #biblioteca ul li a 
+    {
+        font-size: 17px;
+    }
+
+    #autor ul li a 
+    {
+        font-size: 17px;
+    }
+
+    #sobre .paginas h3 
+    {
+        font-size: 17px;
+    }
+
+    #sobre .estrutura  h3 
+    {
+        font-size: 17px;
+    }
+
+    #sobre .tecnologia  h3 
+    {
+        font-size: 17px;
+    }
+
+}
+@media screen and (max-width: 600px)
+{
+    .sidebar.active 
+    {
+        width: 100%;
+        z-index: 100;
+    }
+
+    .conteudo-site.active .menu 
+    {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 120;
+    }
+
+    .conteudo-site.active
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .seta-up
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .seta-up img
+    {
+        width: 20px;
+    }
+
+    .navegacao ul li 
+    {
+        line-height: 50px;
+    }
+
+
+}
+@media screen and (max-width: 414px) 
+{
+    #sobre  p
+    {
+        font-size: 13px;
+    }
+
+    #requisitos p
+    {
+        font-size: 13px;
+    }
+
+    #instalacao p
+    {
+        font-size: 13px;
+    }
+    
+    #biblioteca p
+    {
+        font-size: 13px;
+    }
+
+    #autor p
+    {
+        font-size: 13px;
+    }
+
+    #observacao p
+    {
+        font-size: 13px;
+    }
+
+
+
+
+    .conteudo-site h1 
+    {
+        margin-top: 30px;
+        font-size: 28px;
+    }
+
+    #sobre h2 
+    {
+        font-size: 18px;
+    }
+
+    #requisitos h2 
+    {
+        font-size: 18px;
+    }
+
+    #instalacao h2 
+    {
+        font-size: 18px;
+    }
+
+    #biblioteca h2 
+    {
+        font-size: 18px;
+    }
+
+    #autor h2 
+    {
+        font-size: 18px;
+    }
+
+    #observacao h2 
+    {
+        font-size: 18px;
+    }
+
+    .navegacao ul li a 
+    {
+        font-size: 16px;
+    }
+
+    .codigo-marcado 
+    {
+        font-size: 16px;
+    }
+
+    #sobre .paginas ul li a 
+    {
+        font-size: 16px;
+    }
+
+    #sobre .tecnologia ul li a 
+    {
+        font-size: 16px;
+    }
+
+    #requisitos ul li a 
+    {
+        font-size: 16px;
+    }
+
+    #biblioteca ul li a 
+    {
+        font-size: 16px;
+    }
+
+    #autor ul li a 
+    {
+        font-size: 16px;
+    }
+
+    #sobre .paginas h3 
+    {
+        font-size: 16px;
+    }
+
+    #sobre .estrutura  h3 
+    {
+        font-size: 16px;
+    }
+
+    #sobre .tecnologia  h3 
+    {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 360px) 
+{
+    #sobre  p
+    {
+        font-size: 12px;
+    }
+
+    #requisitos p
+    {
+        font-size: 12px;
+    }
+
+    #instalacao p
+    {
+        font-size: 12px;
+    }
+    
+    #biblioteca p
+    {
+        font-size: 12px;
+    }
+
+    #autor p
+    {
+        font-size: 12px;
+    }
+
+    #observacao p
+    {
+        font-size: 12px;
+    }
+
+
+
+
+    .conteudo-site h1 
+    {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    #sobre h2 
+    {
+        font-size: 16px;
+    }
+
+    #requisitos h2 
+    {
+        font-size: 16px;
+    }
+
+    #instalacao h2 
+    {
+        font-size: 16px;
+    }
+
+    #biblioteca h2 
+    {
+        font-size: 16px;
+    }
+
+    #autor h2 
+    {
+        font-size: 16px;
+    }
+
+    #observacao h2 
+    {
+        font-size: 16px;
+    }
+
+    .navegacao ul li a 
+    {
+        font-size: 14px;
+    }
+
+    .codigo-marcado 
+    {
+        font-size: 12px;
+    }
+
+    #sobre .paginas ul li a 
+    {
+        font-size: 14px;
+    }
+
+    #sobre .tecnologia ul li a 
+    {
+        font-size: 14px;
+    }
+
+    #requisitos ul li a 
+    {
+        font-size: 14px;
+    }
+
+    #biblioteca ul li a 
+    {
+        font-size: 14px;
+    }
+
+    #autor ul li a 
+    {
+        font-size: 14px;
+    }
+
+    #sobre .paginas h3 
+    {
+        font-size: 15px;
+    }
+
+    #sobre .estrutura  h3 
+    {
+        font-size: 15px;
+    }
+
+    #sobre .tecnologia  h3 
+    {
+        font-size: 15px;
+    }
+
+    #sobre 
+    {
+        margin-top: 30px;
+    }
+
+    #requisitos 
+    {
+        margin-top: 50px;
+    }
+
+    #instalacao 
+    {
+        margin-top: 50px;
+    }
+
+    #biblioteca 
+    {
+        margin-top: 50px;
+    }
+
+    #autor 
+    {
+        margin-top: 50px;
+    }
+
+    #observacao 
+    {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 320px) 
+{
+    .logo 
+    {
+        width: 160px;
+        margin-top: 30px;
+    }
+
+    .navegacao ul 
+    {
+        padding-top: 10px;
+    }
+
+    .navegacao ul li 
+    {
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 280px) {}
